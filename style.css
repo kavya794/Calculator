@@ -1,0 +1,35 @@
+*{
+    font-size: 20px;
+}
+#Calculator{
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+#input-container{
+    width: 99%;
+    height: 60px;
+    border: none;
+    background-color: #000000;
+    color: aliceblue;
+}
+.button{
+    border: none;
+    width:25%;
+    height: 50px;
+}
+.button-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.black{
+    background-color: #2f3439;
+    color: aliceblue;
+}
+.white{
+    background-color: aliceblue;
+}
+.pink{
+    background-color:#ed6f09;
+}
+

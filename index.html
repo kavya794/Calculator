@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="Calculator">
+        <input type="text" id="input-container">
+        <div class="button-container"> 
+            <button id="7" class="black button" onclick="update(this.id)">7</button>
+            <button id="8" class="black button" onclick="update(this.id)">8</button>
+            <button id="9" class="black button" onclick="update(this.id)">9</button>
+            <button id="/" class="white button" onclick="update(this.id)">/</button>
+            <button id="4" class="black button" onclick="update(this.id)">4</button>
+            <button id="5" class="black button" onclick="update(this.id)">5</button>
+            <button id="6" class="black button" onclick="update(this.id)">6</button>
+            <button id="-" class="white button" onclick="update(this.id)">-</button>
+            <button id="1" class="black button" onclick="update(this.id)">1</button>
+            <button id="2" class="black button" onclick="update(this.id)">2</button>
+            <button id="3" class="black button" onclick="update(this.id)">3</button>
+            <button id="+" class="white button" onclick="update(this.id)">+</button>
+            <button class="black button" onclick="eraser()">AC</button>
+            <button id="0" class="black button" onclick="update(this.id)">0</button>
+            <button id="." class="black button" onclick="update(this.id)">.</button>
+            <button class="pink button"  onclick="result()">=</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
